@@ -161,7 +161,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: px 50px;
+  padding: 5px 50px;
   background: #ffffff;
   border-bottom: 1px solid #e4e4e4;
   transition: height 0.3s ease;
