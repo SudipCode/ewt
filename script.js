@@ -6,7 +6,7 @@
         // Hide loader on window load or after 900ms, whichever comes first
         Promise.race([
             new Promise(resolve => window.addEventListener('load', resolve)),
-            new Promise(resolve => setTimeout(resolve, 9000))
+            new Promise(resolve => setTimeout(resolve, 9000ms))
         ]).then(hideLoader);
 
         // --- MOBILE NAVIGATION ---
