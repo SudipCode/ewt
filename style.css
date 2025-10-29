@@ -109,17 +109,17 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ffffff;
+    background-color: #070347;
     z-index: 9999;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.5s ease, visibility 0.10s ease;
+    transition: opacity 0.5s ease, visibility .3s ease;
 }
 
 #loader.hidden {
-    opacity: 0;
+    opacity:0;
     visibility: hidden;
 }
 
