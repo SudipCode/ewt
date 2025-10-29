@@ -182,9 +182,9 @@ p {
 
 .icons div {
     height: auto;
-    width: 4rem;
+    width: 6rem;
     line-height: 5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     background: var(--light-bg);
     color: var(--black);
     cursor: pointer;
