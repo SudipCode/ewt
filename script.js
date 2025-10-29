@@ -1,7 +1,4 @@
  document.addEventListener('DOMContentLoaded', function() {
-let contactInfo = document.querySelector('.contact-info');
-
-
 
         // --- LOADER ---
         const loader = document.getElementById('loader');
@@ -12,7 +9,6 @@ let contactInfo = document.querySelector('.contact-info');
             new Promise(resolve => setTimeout(resolve, 900))
         ]).then(hideLoader);
 
-
         // --- MOBILE NAVIGATION ---
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
@@ -22,9 +18,6 @@ let contactInfo = document.querySelector('.contact-info');
             navLinks.classList.toggle('active');
             hamburger.classList.toggle('active');
         });
-document.querySelector('#info-btn').onclick = () =>{
-   contactInfo.classList.add('active');
-}
 
         // Close mobile nav when a link is clicked
         navLinkItems.forEach(link => {
@@ -35,12 +28,6 @@ document.querySelector('#info-btn').onclick = () =>{
                 }
             });
         });
-
-        //---info button ---
-
-document.querySelector('#close-contact-info').onclick = () =>{
-   contactInfo.classList.remove('active');
-}
 
         // --- HERO SLIDER ---
         const slides = document.querySelectorAll('.slide');
@@ -190,4 +177,3 @@ document.querySelector('#close-contact-info').onclick = () =>{
         });
 
     });
-
