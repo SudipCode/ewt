@@ -183,7 +183,7 @@ p {
 .icons div {
     height:4rem;
     width: 4rem;
-    line-height: 5rem;
+    line-height: 4rem;
     font-size: 2rem;
     background: var(--light-bg);
     color: var(--black);
@@ -364,7 +364,7 @@ p {
 }
 
 .hamburger .bar {
-    width: 26px;
+    width: 25px;
     height: 2px;
     background-color: var(--navy-dark);
     border-radius: 5px;
