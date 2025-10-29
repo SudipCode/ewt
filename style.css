@@ -523,11 +523,47 @@ p {
 }
 
 /* --- FOOTER --- */
-footer {
-    background-color: var(--navy-dark);
-    color: var(--text-light);
-    text-align: center;
-    padding: 2rem 0;
+.footer {
+  background-color: var(--navy-dark);
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.footer h2 {
+    
+  margin: 0 auto 30px;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.footer p {
+    padding:3rem ;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #ccc;
+}
+
+.footer .social a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  transition: 0.3s;
+}
+
+.footer .social a:hover {
+  background-color: #fff;
+  color: #010000;
+  transform: translateY(-3px);
 }
 
 /* --- RESPONSIVE DESIGN --- */
